@@ -11,8 +11,8 @@ Gem::Specification.new do |spec|
   spec.version     = ActiveJob::Trackable::VERSION
   spec.authors     = ['Akatsuki-kk']
   spec.email       = ['ktokzki.bis@gmail.com']
-  spec.homepage    = 'https://github.com/ignatiusreza/activejob-trackable'
-  spec.summary     = 'Extend ActiveJob with the ability to track (debounce, throttle) jobs'
+  spec.homepage    = 'https://github.com/akatsuki-kk/active-job-trackable2'
+  spec.summary     = 'Active-job-trackable(https://github.com/ignatiusreza/activejob-trackable) for Rails 6.0 or later'
   spec.description = 'Get more control into your jobs with the ability to track (debounce, throttle) jobs'
   spec.license     = 'MIT'
 
@@ -23,5 +23,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'minitest-ci'
   spec.add_development_dependency 'rubocop'
   spec.add_development_dependency 'rubocop-performance'
-  spec.add_development_dependency 'sqlite3', '~> 1.3.6'
+  spec.add_development_dependency 'sqlite3', '~> 1.6.1'
 end
