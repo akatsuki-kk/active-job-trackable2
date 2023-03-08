@@ -7,10 +7,10 @@ require 'activejob/trackable/version'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |spec|
-  spec.name        = 'activejob-trackable'
+  spec.name        = 'activejob-trackable2'
   spec.version     = ActiveJob::Trackable::VERSION
-  spec.authors     = ['Ignatius Reza']
-  spec.email       = ['lyoneil.de.sire@gmail.com']
+  spec.authors     = ['Akatsuki-kk']
+  spec.email       = ['ktokzki.bis@gmail.com']
   spec.homepage    = 'https://github.com/ignatiusreza/activejob-trackable'
   spec.summary     = 'Extend ActiveJob with the ability to track (debounce, throttle) jobs'
   spec.description = 'Get more control into your jobs with the ability to track (debounce, throttle) jobs'
@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.md']
 
-  spec.add_dependency 'rails', '~> 5.2.2'
+  spec.add_dependency 'rails', '~> 6.0.0'
 
   spec.add_development_dependency 'minitest-ci'
   spec.add_development_dependency 'rubocop'
