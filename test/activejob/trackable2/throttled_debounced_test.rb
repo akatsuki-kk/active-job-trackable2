@@ -2,7 +2,7 @@
 
 require 'test_helper'
 
-module ActiveJob::Trackable
+module ActiveJob::Trackable2
   class ThrottledDebouncedTest < BaseTest
     attr_reader :now
 

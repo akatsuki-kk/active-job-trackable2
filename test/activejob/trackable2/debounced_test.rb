@@ -2,7 +2,7 @@
 
 require 'test_helper'
 
-module ActiveJob::Trackable
+module ActiveJob::Trackable2
   class DebouncedTest < BaseTest
     test 'rescheduling existing job if the same job gets enqueued multiple times' do
       travel_to Time.current.at_beginning_of_hour do

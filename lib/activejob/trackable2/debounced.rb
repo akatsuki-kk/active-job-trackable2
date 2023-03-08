@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module ActiveJob
-  module Trackable
+  module Trackable2
     ##
     # Include `ActiveJob::Trackable::Debounced` to allow debouncing job when multiple jobs with identical keys
     # are scheduled before it get performed

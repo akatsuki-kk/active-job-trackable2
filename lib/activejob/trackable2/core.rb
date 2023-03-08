@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module ActiveJob
-  module Trackable
+  module Trackable2
     ##
     # Extend `ActiveJob::Base` to automatically create a tracker for every enqueued jobs
     #

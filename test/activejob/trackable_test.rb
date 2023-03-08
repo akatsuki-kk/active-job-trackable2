@@ -2,8 +2,8 @@
 
 require 'test_helper'
 
-class ActiveJob::Trackable::Test < ActiveSupport::TestCase
+class ActiveJob::Trackable2::Test < ActiveSupport::TestCase
   test 'truth' do
-    assert_kind_of Module, ActiveJob::Trackable
+    assert_kind_of Module, ActiveJob::Trackable2
   end
 end

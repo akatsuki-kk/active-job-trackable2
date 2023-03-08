@@ -2,7 +2,7 @@
 
 require 'test_helper'
 
-module ActiveJob::Trackable
+module ActiveJob::Trackable2
   class CoreTest < BaseTest
     test 'enqueuing job creates new tracker' do
       job = assert_tracked { described_class.set(wait: 1.day).perform_later('foo', 'bar') }

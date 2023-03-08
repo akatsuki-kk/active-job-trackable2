@@ -8,7 +8,7 @@ require_relative './trackable/throttled'
 
 module ActiveJob
   # Extend `ActiveJob::Base` with the ability to track (cancel, reschedule, etc) jobs
-  module Trackable
+  module Trackable2
     extend ActiveSupport::Concern
 
     included do

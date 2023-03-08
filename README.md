@@ -17,7 +17,7 @@ you can start by adding `include ActiveJob::Trackable` into any jobs you want to
 
 ```ruby
 class SampleJob < ApplicationJob
-  include ActiveJob::Trackable
+  include ActiveJob::Trackable2
 
   trackable debounced: true, throttled: 1.day
 

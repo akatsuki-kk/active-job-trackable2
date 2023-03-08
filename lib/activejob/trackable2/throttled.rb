@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module ActiveJob
-  module Trackable
+  module Trackable2
     ##
     # Include `ActiveJob::Trackable::Throttled` to throttle scheduling job when multiple jobs
     # with identical keys tried to be scheduled before it get performed

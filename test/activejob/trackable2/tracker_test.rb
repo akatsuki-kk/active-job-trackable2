@@ -2,7 +2,7 @@
 
 require 'test_helper'
 
-module ActiveJob::Trackable
+module ActiveJob::Trackable2
   class TrackerTest < BaseTest
     test '#job reconstruct the original job ' do
       original_job = CoreJob.set(priority: 10, wait: 1.day).perform_later('foo', 'bar')

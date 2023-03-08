@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module ActiveJob
-  module Trackable
+  module Trackable2
     class Railtie < ::Rails::Railtie
     end
   end
