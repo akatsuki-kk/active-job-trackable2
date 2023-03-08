@@ -7,7 +7,7 @@ require 'activejob/trackable/version'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |spec|
-  spec.name        = 'activejob-trackable2'
+  spec.name        = 'activejob-trackable'
   spec.version     = ActiveJob::Trackable::VERSION
   spec.authors     = ['Akatsuki-kk']
   spec.email       = ['ktokzki.bis@gmail.com']
