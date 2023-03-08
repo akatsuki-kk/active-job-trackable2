@@ -49,7 +49,7 @@ $ bundle
 
 Or install it yourself as:
 ```bash
-$ gem install activejob-trackable
+$ gem install activejob-trackable2
 ```
 
 run the generator:
