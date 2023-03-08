@@ -5,7 +5,7 @@ require_relative 'boot'
 require 'rails/all'
 
 Bundler.require(*Rails.groups)
-require 'activejob/trackable'
+require 'activejob/trackable2'
 
 module Dummy
   class Application < Rails::Application
