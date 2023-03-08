@@ -2,7 +2,7 @@ Description:
   Generate activerecord migration for the table related to ActiveJob::Trackable::Tracker
 
 Example:
-  rails generate active_job:trackable
+  rails generate active_job:trackable2
 
   will create:
     db/migrate/*_create_active_job_trackers.rb

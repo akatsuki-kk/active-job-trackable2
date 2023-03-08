@@ -23,4 +23,4 @@ if ActiveSupport::TestCase.respond_to?(:fixture_path=)
   ActiveSupport::TestCase.fixtures :all
 end
 
-require_relative './activejob/trackable/base'
+require_relative './activejob/trackable2/base'

@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'test_helper'
-require 'generators/active_job/trackable/trackable_generator'
+require 'generators/active_job/trackable2/trackable_generator'
 
 module ActiveJob
   class TrackableGeneratorTest < Rails::Generators::TestCase
