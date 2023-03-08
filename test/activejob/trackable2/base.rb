@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class ActiveJob::Trackable::BaseTest < ActiveSupport::TestCase
+class ActiveJob::Trackable2::BaseTest < ActiveSupport::TestCase
   include ActiveJob::TestHelper
 
   setup do
@@ -11,13 +11,13 @@ class ActiveJob::Trackable::BaseTest < ActiveSupport::TestCase
   private
 
     def assert_tracked
-      assert_change -> { ActiveJob::Trackable::Tracker.count } do
+      assert_change -> { ActiveJob::Trackable2::Tracker.count } do
         yield
       end
     end
 
     def refute_tracked
-      refute_change -> { ActiveJob::Trackable::Tracker.count } do
+      refute_change -> { ActiveJob::Trackable2::Tracker.count } do
         yield
       end
     end
