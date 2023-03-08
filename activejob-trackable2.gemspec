@@ -3,12 +3,12 @@
 $LOAD_PATH.push File.expand_path('lib', __dir__)
 
 # Maintain your gem's version:
-require 'activejob/trackable/version'
+require 'activejob/trackable2/version'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |spec|
   spec.name        = 'activejob-trackable2'
-  spec.version     = ActiveJob::Trackable::VERSION
+  spec.version     = ActiveJob::Trackable2::VERSION
   spec.authors     = ['Akatsuki-kk']
   spec.email       = ['ktokzki.bis@gmail.com']
   spec.homepage    = 'https://github.com/akatsuki-kk/active-job-trackable2'
